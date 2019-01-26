@@ -16,7 +16,7 @@
 
 "pool_list" :
 [
-	{"pool_address" : "ple.optimusblue.com:4444", "wallet_address" : "PLeao8X6x6cJR4nujsM7JH4tdhq4Ej53rKnpRiyaUFUybsKs7tissKCA64Z6mXSYryiWM6gxkGRueT6ukVmVhydwANTQc9ojqm", "rig_id" : "", "pool_password" : "astaeident", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "ple.optimusblue.com:4444", "wallet_address" : "coinwallet", "rig_id" : "", "pool_password" : "srvhostname", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
