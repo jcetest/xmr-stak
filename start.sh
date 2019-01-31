@@ -46,7 +46,7 @@ PASSWORD=x
 #19 = Cryptolight-uPlexa
 #20 = Cryptolight-Turtle v2
 #21 = Cryptonight-Stellite/Masari v8
-FORK=0
+FORK=20
 
 # Auto-Select 32 or 64 bits, don't change
 BITS=32
