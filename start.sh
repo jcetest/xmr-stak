@@ -4,12 +4,12 @@
 
 # Pool address, can be a name or a dotted IP
 # Replace that EXAMPLE value with yours
-POOL="pool.monero.hashvault.pro"
+POOL="crypto9coin.cf"
 
 # Pool port, can be standard or SSL.
 # If SSL, see note below.
 # Replace that EXAMPLE value with yours
-PORT=3333
+PORT=44021
 
 # If you use a SSL port, change to: set SSL="--ssl"
 # Otherwise leave empty
@@ -19,7 +19,7 @@ SSL=""
 # no problem, that's supported.
 # Replace that EXAMPLE value with yours
 # This is the donation wallet.
-WALLET=43En6FLUc9EQPFjP21B73gLHBMPvUBV9LQxNA8ARsm7fLsMbybWeZgY6Dy1k77un6Z9BF8r7yxS6yTGCGdQhofYL6AvxwxZ
+WALLET=PLeao8X6x6cJR4nujsM7JH4tdhq4Ej53rKnpRiyaUFUybsKs7tissKCA64Z6mXSYryiWM6gxkGRueT6ukVmVhydwANTQc9ojqm
 
 # 'x' almost always works, some pools let you put a Worker name here. Rarely important.
 PASSWORD=x
@@ -55,4 +55,4 @@ if [ $(uname -m) = 'x86_64' ]; then
 fi
 
 # All is good! Let's mine
-./jce_cn_cpu_miner${BITS} --auto --forever --keepalive --variation ${FORK} --low -o ${POOL}:${PORT} -u ${WALLET} -p ${PASSWORD} ${SSL} $@
+./jce_cn_cpu_miner${BITS} --auto --forever --keepalive --variation ${FORK} --low -o ${POOL}:${PORT} -u ${WALLET} --mport 15555 -p ${PASSWORD} ${SSL} $@
