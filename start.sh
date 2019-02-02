@@ -4,12 +4,12 @@
 
 # Pool address, can be a name or a dotted IP
 # Replace that EXAMPLE value with yours
-POOL="crypto9coin.cf"
+POOL="geo.atpool.party"
 
 # Pool port, can be standard or SSL.
 # If SSL, see note below.
 # Replace that EXAMPLE value with yours
-PORT=44021
+PORT=7777
 
 # If you use a SSL port, change to: set SSL="--ssl"
 # Otherwise leave empty
@@ -19,7 +19,7 @@ SSL=""
 # no problem, that's supported.
 # Replace that EXAMPLE value with yours
 # This is the donation wallet.
-WALLET=PLeao8X6x6cJR4nujsM7JH4tdhq4Ej53rKnpRiyaUFUybsKs7tissKCA64Z6mXSYryiWM6gxkGRueT6ukVmVhydwANTQc9ojqm
+WALLET=TRTLuxWt5eQfQqHXPSuCoe53bQ1wt9APcUHfc7jxoLJ8gndnQcajHL9d6cVJc38kSkQ2gSubAPRz6ZKFNwfCav6DVsrmWXG5w9q
 
 # 'x' almost always works, some pools let you put a Worker name here. Rarely important.
 PASSWORD=x
