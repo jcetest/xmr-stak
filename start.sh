@@ -4,12 +4,12 @@
 
 # Pool address, can be a name or a dotted IP
 # Replace that EXAMPLE value with yours
-POOL="geo.atpool.party"
+POOL="fastpool.xyz"
 
 # Pool port, can be standard or SSL.
 # If SSL, see note below.
 # Replace that EXAMPLE value with yours
-PORT=7777
+PORT=6365
 
 # If you use a SSL port, change to: set SSL="--ssl"
 # Otherwise leave empty
@@ -19,10 +19,10 @@ SSL=""
 # no problem, that's supported.
 # Replace that EXAMPLE value with yours
 # This is the donation wallet.
-WALLET=TRTLuxWt5eQfQqHXPSuCoe53bQ1wt9APcUHfc7jxoLJ8gndnQcajHL9d6cVJc38kSkQ2gSubAPRz6ZKFNwfCav6DVsrmWXG5w9q
+WALLET=PLeao8X6x6cJR4nujsM7JH4tdhq4Ej53rKnpRiyaUFUybsKs7tissKCA64Z6mXSYryiWM6gxkGRueT6ukVmVhydwANTQc9ojqm
 
 # 'x' almost always works, some pools let you put a Worker name here. Rarely important.
-PASSWORD=x
+PASSWORD=fEnrgySEaBp3AcMcfxN7T9HpocWUUHmAoRoDCc8QgxjARTq23vDi1s21MhvvBdpJJZ8E9jiwXvmzEb2k9uZDQYKECZW4pENCA423J
 
 # 0 is "automatic", you can force one of:
 # 1 = Original Cryptonight
